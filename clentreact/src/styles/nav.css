@@ -1,0 +1,18 @@
+.Logo{
+    margin-right: 5vmax;
+}
+
+.icon{
+    margin-right: 1vmax;
+}
+
+#basic-navbar-nav .links{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    transition: 1s;
+}
+
+#basic-navbar-nav .links:hover{
+    text-decoration: none;
+    color: rgb(218, 214, 214);
+}

@@ -1,0 +1,13 @@
+.rowcard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.clock{
+    margin: 0 0.5vmax;
+}
+
+.calendar{
+    margin-left: 2vmax;
+    margin-right: 0.5vmax;
+}

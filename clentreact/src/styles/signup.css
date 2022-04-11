@@ -1,0 +1,78 @@
+.signupform{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcontainer{
+    width: 45%;
+    background-color: rgb(33, 37, 41);
+    border: 2px solid rgb(145, 142, 142);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm h2{
+    color: rgb(190, 191, 192);
+    margin-bottom: 2rem;
+}
+
+.registerForm input{
+    padding-left: 0.5vmax;
+    border: none;
+    outline: none;
+    background-color: rgb(33, 37, 41);
+    border-bottom: 1px solid rgb(48, 47, 47);
+    margin-bottom: 1rem;
+    transition: 1s;
+}
+
+.registerForm input:focus{
+    border-bottom: 1px solid rgb(145, 142, 142);
+    border-right: 1px solid rgb(145, 142, 142);
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(33, 37, 41);
+}
+
+.registerForm button{
+    color: rgb(190, 191, 192);
+    background-color: rgb(33, 37, 41);
+    border: none;
+    outline: none;
+    border-top: 1px solid rgb(145, 142, 142);
+    border-bottom: 1px solid rgb(145, 142, 142);
+    padding: 0.2rem;
+    transition: 0.8s;
+}
+
+.registerForm button:hover{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 0.6rem;
+    color: white;
+}
+
+.registerForm span{
+    margin-top: 0.4rem;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.registerForm span a{
+    text-decoration: none;
+    font-size: smaller;
+    color: rgb(190, 191, 192);
+}
+
+.registerForm span a:hover{
+    text-decoration: none;
+    font-size: smaller;
+    color: rgb(205, 207, 209);
+}
